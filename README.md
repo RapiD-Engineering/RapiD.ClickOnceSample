@@ -19,9 +19,9 @@ To publish an application:
 - In the Published/[ProjectName].application file we need to edit a string for it to work correctly, open this file in a text-editor.
   remove the duplicate application path at the end of the codebase string so
    this:
-  '<deploymentProvider codebase="https://raw.githubusercontent.com/RapiD-Engineering/RapiD.ClickOnceSample/master/Published/RapiD.ClickOnceSample.application/RapiD.ClickOnceSample.application" />'
+  deploymentProvider codebase="https://raw.githubusercontent.com/RapiD-Engineering/RapiD.ClickOnceSample/master/Published/RapiD.ClickOnceSample.application/RapiD.ClickOnceSample.application" 
   will become:
-  '<deploymentProvider codebase="https://raw.githubusercontent.com/RapiD-Engineering/RapiD.ClickOnceSample/master/Published/RapiD.ClickOnceSample.application" />'
+  deploymentProvider codebase="https://raw.githubusercontent.com/RapiD-Engineering/RapiD.ClickOnceSample/master/Published/RapiD.ClickOnceSample.application" 
 
 - After a succesfull publish, you can commit and push your new publish to github.
 
