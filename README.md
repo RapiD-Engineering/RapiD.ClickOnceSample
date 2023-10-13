@@ -77,5 +77,8 @@ copy this html to that file
 - Also edit the a.download string to your application 
 - Push to github, this will create a job in github actions when done correctly.
 - You can track the jobs progress in Github Actions and see when the page is deployed. 
-- When deploying is done, click the link in the deploy block, this is the link to install your application.
+- When the deplyment is done you can try isntalling via the link.
+- https://[OWNER].github.io/[REPO]/install.html  (in this case:  https://RapiD-Engineering.github.io/RapiD.ClickOnceSample/install.html)
+
+
 
