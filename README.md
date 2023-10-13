@@ -26,7 +26,7 @@ To publish an application:
   ```
   < deploymentProvider codebase="https://raw.githubusercontent.com/RapiD-Engineering/RapiD.ClickOnceSample/master/Published/RapiD.ClickOnceSample.application" />
   ```
-- After a succesfull publish, you can commit and push your new publish to github.
+- After a succesfull publish, you can commit and push your new publish to github. (Select RapiD-Engineering as owner for your repo)
 
 
 - in Github you need to create a Page in the Pages tab of your project setting.
@@ -75,4 +75,7 @@ copy this html to that file
 
 - In the above file edit the fetch string to the string created in step 6
 - Also edit the a.download string to your application 
+- Push to github, this will create a job in github actions when done correctly.
+- You can track the jobs progress in Github Actions and see when the page is deployed. 
+- When deploying is done, click the link in the deploy block, this is the link to install your application.
 
