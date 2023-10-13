@@ -16,6 +16,8 @@ To publish an application:
 - Specify your configuration (leave 'Produce Single File' unchecked)
 - Finish and try to publish
 
+
+
 - In the Published/[ProjectName].application file we need to edit a string for it to work correctly, open this file in a text-editor.
   remove the duplicate application path at the end of the codebase string so
    this:
@@ -26,9 +28,11 @@ To publish an application:
   ```
   < deploymentProvider codebase="https://raw.githubusercontent.com/RapiD-Engineering/RapiD.ClickOnceSample/master/Published/RapiD.ClickOnceSample.application" />
   ```
+-Do this After each publish otherwise the install button on the page will do nothing
+
+
+
 - After a succesfull publish, you can commit and push your new publish to github. (Select RapiD-Engineering as owner for your repo)
-
-
 - in Github you need to create a Page in the Pages tab of your project setting.
 - Select the branch and create the page
 - Now we need to create the html file
