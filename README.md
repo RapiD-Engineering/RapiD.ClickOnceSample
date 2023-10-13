@@ -49,13 +49,13 @@ copy this html to that file
 
 
         function downloadClickOnce() {
-            fetch('https://raw.githubusercontent.com/DirkKramer/NetdesignerReleases/attr/published/NetDesigner.application')
+            fetch('https://raw.githubusercontent.com/RapiD-Engineering/RapiD.ClickOnceSample/master/Published/RapiD.ClickOnceSample.application')
                 .then(response => response.blob())
                 .then(blob => {
                     const blobUrl = URL.createObjectURL(blob);
                     const a = document.createElement('a');
                     a.href = blobUrl;
-                    a.download = 'NetDesigner.application';
+                    a.download = 'RapiD.ClickOnceSample.application';
                     document.body.appendChild(a);
                     a.click();
                     document.body.removeChild(a);
@@ -72,4 +72,7 @@ copy this html to that file
 </body>
 </html>
 ```
+
+- In the above file edit the fetch string to the string created in step 6
+- Also edit the a.download string to your application 
 
