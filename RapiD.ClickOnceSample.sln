@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RapiD.ClickOnceSample", "RapiD.ClickOnceSample\RapiD.ClickOnceSample.csproj", "{A14950FE-11CC-4406-B9E2-A5AFD87C49DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A14950FE-11CC-4406-B9E2-A5AFD87C49DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A14950FE-11CC-4406-B9E2-A5AFD87C49DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A14950FE-11CC-4406-B9E2-A5AFD87C49DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A14950FE-11CC-4406-B9E2-A5AFD87C49DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D590BB33-070E-4647-8E57-36D77BE9DE87}
+	EndGlobalSection
+EndGlobal
