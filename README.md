@@ -68,6 +68,7 @@ copy this html to that file
                 .catch(error => {
                     console.error("There was an error fetching the file:", error);
                 });
+}
     </script>
 </head>
 <body> 
@@ -81,7 +82,7 @@ copy this html to that file
 - Also edit the a.download string to your application 
 - Push to github, this will create a job in github actions when done correctly.
 - You can track the jobs progress in Github Actions and see when the page is deployed. 
-- When the deplyment is done you can try isntalling via the link.
+- When the deplyment is done you can try installing via the link.
 - https://[OWNER].github.io/[REPO]/install.html  (in this case:  https://RapiD-Engineering.github.io/RapiD.ClickOnceSample/install.html)
 
 
